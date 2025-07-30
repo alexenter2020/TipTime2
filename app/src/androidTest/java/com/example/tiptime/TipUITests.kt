@@ -23,7 +23,7 @@ class TipUITests {
         }
         composeTestRule.onNodeWithText(
             text = "Bill Amount",
-            ignoreCase = true
+            ignoreCase = true       // ignora mayúsculas y/o minúsculas
         ).performTextInput("10")
         composeTestRule.onNodeWithText(
             text = "Tip Percentage",
